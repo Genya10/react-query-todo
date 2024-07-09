@@ -1,15 +1,11 @@
 import {Spinner, List} from '@chakra-ui/react'
 import { TodoType } from '../types/todo'
 import { TodoItem } from './TodoItem'
-import { useQuery } from '@tanstack/react-query'
-import { fetchTodos } from '../services/todos-service'
+import { useTodoList } from '../hooks/useTodoList'
 
-const TodoList = ()=>{
+const TodoList = () => {
 
-const {data, isLoading, isSuccess} = useQuery<TodoType[]>({
-   queryKey:['todo','all'],
-   queryFn:() => fetchTodos('all')
-})
+const {data,isLoading,isSuccess} = useTodoList()
 
 if(isLoading){
    return (
@@ -25,7 +21,7 @@ if(isLoading){
 
  return (
     <List>
-        {isSuccess && data.map((todo)=>(
+        {isSuccess && data?.map((todo:TodoType)=>(
          <TodoItem key={todo.id} {...todo}/>
         ))}
     </List>

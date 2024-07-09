@@ -6,34 +6,14 @@
       "completed": false
     },
     {
-      "id": "828b",
-      "title": "",
-      "completed": false
-    },
-    {
-      "id": "6752",
-      "title": "",
-      "completed": false
-    },
-    {
-      "id": "61a6",
-      "title": "",
-      "completed": false
-    },
-    {
-      "id": "05a9",
-      "title": "study English",
-      "completed": false
-    },
-    {
       "id": "631c",
       "title": "Learn redux",
-      "completed": false
+      "completed": true
     },
     {
       "id": "0112",
       "title": "Learn CSS",
-      "completed": false
+      "completed": true
     },
     {
       "id": "8351",
@@ -43,21 +23,61 @@
     {
       "id": "b337",
       "title": "zxcvdx123",
-      "completed": false
+      "completed": true
     },
     {
       "id": "5a9a",
       "title": "study React-query",
-      "completed": false
+      "completed": true
     },
     {
       "id": "caee",
       "title": "asdfgh123",
-      "completed": false
+      "completed": true
     },
     {
       "id": "0921",
       "title": "ывмвивив",
+      "completed": true
+    },
+    {
+      "id": "0100",
+      "title": "qwe",
+      "completed": true
+    },
+    {
+      "id": "207b",
+      "title": "qwerty",
+      "completed": false
+    },
+    {
+      "id": "c926",
+      "title": "zxcv",
+      "completed": false
+    },
+    {
+      "id": "3f13",
+      "title": "ыфссф",
+      "completed": true
+    },
+    {
+      "id": "8dba",
+      "title": "xvadsbadrntnatn",
+      "completed": false
+    },
+    {
+      "id": "d7f0",
+      "title": "zx123",
+      "completed": false
+    },
+    {
+      "id": "2657",
+      "title": "ZXC",
+      "completed": false
+    },
+    {
+      "id": "9dda",
+      "title": "QWErth",
       "completed": false
     }
   ]
