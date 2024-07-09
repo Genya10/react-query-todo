@@ -1,11 +1,11 @@
 import {Spinner, List} from '@chakra-ui/react'
-import { TodoType } from '../types/todo'
+import { TodoType, TodoListType } from '../types/todo'
 import { TodoItem } from './TodoItem'
 import { useTodoList } from '../hooks/useTodoList'
 
-const TodoList = () => {
+const TodoList = ({state}:TodoListType) => {
 
-const {data,isLoading,isSuccess} = useTodoList()
+const {data,isLoading,isSuccess} = useTodoList(state)
 
 if(isLoading){
    return (

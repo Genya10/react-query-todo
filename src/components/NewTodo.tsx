@@ -1,7 +1,5 @@
 import { Button, Input, Stack } from "@chakra-ui/react";
 import { useState } from "react";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { createTodo } from "../services/todos-service";
 import { useNewTodo } from "../hooks/useNewTodo";
 
 const NewTodo = () => {
