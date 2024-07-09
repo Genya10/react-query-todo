@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "concurrently\"npm run dev\"\"npm run server",
+    "start": "concurrently \"npm run dev\" \"npm run server\"",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "server":"json-server --watch db.json --port 3001",

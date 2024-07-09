@@ -1,6 +1,6 @@
 import { TodoType, TodoStateType } from "../types/todo";
 
-const BASE = "http://localhost:3000/todos";
+const BASE = "http://localhost:3001/todos";
 
 export async function fetchTodos(
   state: TodoStateType = "all"
