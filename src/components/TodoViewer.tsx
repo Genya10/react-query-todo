@@ -4,26 +4,26 @@ import { TodoStateType } from "../types/todo";
 import { TodoList } from "./TodoList";
 
 const TodoViewer = () => {
-  const [view, setView] = useState<TodoStateType>(TodoStateType.All);
+  const [view, setView] = useState<TodoStateType>('all');
 
   return (
     <Stack>
       <ButtonGroup>
         <Button
           variant={view === "all" ? "outline" : "solid"}
-          onClick={() => setView(TodoStateType.All)}
+          onClick={() => setView('all')}
         >
           all
         </Button>
         <Button
           variant={view === "open" ? "outline" : "solid"}
-          onClick={() => setView(TodoStateType.Open)}
+          onClick={() => setView('open')}
         >
           open
         </Button>
         <Button
           variant={view === "completed" ? "outline" : "solid"}
-          onClick={() => setView(TodoStateType.Completed)}
+          onClick={() => setView('completed')}
         >
           completed
         </Button>

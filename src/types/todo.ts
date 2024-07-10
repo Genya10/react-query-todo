@@ -1,4 +1,4 @@
-//export type TodoStateType = "all" | "open" | "completed";
+export type TodoStateType = "all" | "open" | "completed";
 
 export type TodoType = {
   id: number;
@@ -10,8 +10,8 @@ export type TodoListType = {
   state: TodoStateType;
 };
 
-export enum TodoStateType {
+/*export enum TodoStateType {
   All = "all",
   Open = "open",
   Completed = "completed",
-}
+}*/

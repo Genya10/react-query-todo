@@ -3,7 +3,7 @@ import { TodoType, TodoStateType } from "../types/todo";
 const BASE = "http://localhost:3001/todos";
 
 export async function fetchTodos(
-  state: TodoStateType = "all"
+  state: TodoStateType = 'all'
 ): Promise<TodoType[]> {
   const queries = state === "all" ? "" : `?completed=${state === "completed"}`;
 

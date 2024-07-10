@@ -10,6 +10,8 @@ export function useTodoList(state: TodoStateType) {
     queryKey: ["todos", state],
     queryFn: () => fetchTodos(state),
     retry: 2,
+    staleTime:5000,
+    gcTime:1000 * 60
   });
 
   useEffect(() => {
